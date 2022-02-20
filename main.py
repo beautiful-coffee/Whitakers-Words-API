@@ -8,7 +8,7 @@ app = FastAPI()
 
 @app.get("/translate/{latin_word}", response_class=HTMLResponse)
 async def read_items(latin_word):
-    definition = subprocess.check_output("./words " + latin_word, shell=True).decode("utf-8")
+    definition = subprocess.check_output("sudo ./words " + latin_word, shell=True).decode("utf-8")
     return """
     <html>
         <head>
