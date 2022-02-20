@@ -1,0 +1,4 @@
+:repo:deb http://archive.ubuntu.com/ubuntu focal/universe amd64 Packages
+gnat
+gprbuild
+#
