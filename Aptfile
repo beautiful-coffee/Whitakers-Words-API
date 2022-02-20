@@ -1,4 +1,4 @@
-:repo:deb http://archive.ubuntu.com/ubuntu focal/universe
+http://mirrors.kernel.org/ubuntu/pool/universe/g/gnat/gnat_9ubuntu2_amd64.deb
 gnat
 gprbuild
 #
